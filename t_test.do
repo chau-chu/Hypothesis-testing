@@ -1,6 +1,6 @@
 *Difference Mean ttest 
 
-use 2005-07b.dta, clear  // This is the dataset newly created from merge_data.do
+use 2005-07b.dta, clear  // This is the dataset newly created from repository Vietnamdata>merge_data.do
 mat T = J(8,4,.)
 ttest output, by(taxcode)
 mat T[1,1] = r(mu_1)
