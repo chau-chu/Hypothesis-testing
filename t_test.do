@@ -1,4 +1,4 @@
-*Difference Mean ttest 
+*Difference Mean t-test 
 
 use 2005-07b.dta, clear  // This is the dataset newly created from repository Vietnamdata>merge_data.do
 mat T = J(8,4,.)
